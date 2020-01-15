@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".budayaActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@color/colorAbu">
+
+            <android.widget.FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/judul"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Adat dan Budaya"
+                        android:gravity="center"
+                        android:textColor="@color/colorRedDark"
+                        android:textSize="48dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:layout_marginBottom="20dp"
+                        android:src="@drawable/budaya">
+
+                    </ImageView>
+
+                    <WebView
+                        android:id="@+id/webview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sistem yang digunakan Suku Minangkabau pertama kali dicetuskan oleh dua orang bersaudara yang bernama Datuk Ketumanggungan dan Datuk Perpatih Nan Sebatang."
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="Datuk Ketumanggungan mewariskan sistem adat Koto Piliang yang bercorak aristokratis, sedangkan untuk Datuk Perpatih mewariskan sistem adat Bodi Caniago yang bercorak egaliter."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Di dalam perjalanan suku minang, kedua sistem adat tersebut dikenal selaras dan saling mengisi serta membentuk sistem masyarakat dari Minangkabau. Di dalam suku minang, terdapat tiga pilar yang membangun serta menjaga keutuhan budaya dan adat istiadat suku minang. Ketiga pilar tersebut adalah alim ulama, cerdik pandai, dan ninik mamak, yang juga dikenal dengan istilah Tungku Tigo Sajarangan."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ketiga pilar tersebut saling mengisi dan bahu membahu dalam posisi yang sama tingginya. Dalam masyarakat Minangkabau yang demokratis dan corak egaliter, semua urusan masyarakat dimusyawarahkan oleh ketiga unsur itu dengan cara mufakat."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/judul2"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Matrilineal"
+                        android:textSize="36dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hingga saat ini, masyarakat minangkabau merupakan masyarakat penganut matrilineal terbesar yang ada di dunia."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Matrilineal sendiri adalah salah satu aspek utama yang mengidentifikasikan identitas rakyat minang. Adat dan budaya rakyat minang menempatkan pihak perempuan bertindak sebagai pewaris harta pusaka serta kekerabatan."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Garis keturunan merujuk pada ibu yang dikenal dengan nama Samande (se-ibu), sedangkan ayah disebut dengan nama Sumando (ipar) oleh rakyat minang serta diperlakukan layaknya tamu di dalam kelurga."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kaum perempuan di dalam suku minangkabau mempunya kedudukan yang istimewa sehingga dijuluki dengan sebutan Bundo Kanduang. Kaum perempuan berperan dalam menentukan keberhasilan pelaksanaan keputusan yang dibuat oleh kaum lelaki dalam posisi mereka sebagai mamak (paman atau saudara dari pihak ibu), serta penghulu (kepala suku)."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Karena pengaruhnya yang besar, menjadikan kaum perempuan rakyat minang disimbolkan sebagai Limpapeh Rumah Nan Gadang (pilar utama rumah)."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Walau kekuasaan suku minang sangat dipengaruhi oleh penguasaan terhadap aset ekonomi namun kaum lelaki dari keluarga pihak perempuan tersebut masih tetap memegang otoritas atau mempunyai legitimasi kekuasaan pada komunitasnya."
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </android.widget.FrameLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

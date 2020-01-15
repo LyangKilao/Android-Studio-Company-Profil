@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.widget.RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp">
+
+                        <ViewFlipper
+                            android:id="@+id/viewFlipper"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/istano"
+                                android:scaleType="fitXY"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/masjid"
+                                android:scaleType="fitXY"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/lembah"
+                                android:scaleType="fitXY"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/pagaruyuang"
+                                android:scaleType="fitXY"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/jamgadang"
+                                android:scaleType="fitXY"/>
+
+                        </ViewFlipper>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1">
+
+                            <android.widget.RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="3dp"
+                                android:padding="1dp" >
+
+                                <LinearLayout
+                                    android:id="@+id/home"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorAbu"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/home" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:background="@color/colorUngu"
+                                        android:text="HOME"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/colorBlack"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </android.widget.RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1">
+
+                            <android.widget.RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/budaya"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="@color/colorAbu">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/topi"
+                                        android:layout_gravity="center"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:text="BUDAYA"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/colorBlack"
+                                        android:background="@color/colorUngu"/>
+
+                                </LinearLayout>
+                            </android.widget.RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1">
+
+                            <android.widget.RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/desti"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="@color/colorAbu">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/destination"
+                                        android:layout_gravity="center"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:text="DESTINATION"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/colorBlack"
+                                        android:background="@color/colorUngu"/>
+
+                                </LinearLayout>
+                            </android.widget.RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1">
+
+                            <android.widget.RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/kuliner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="@color/colorAbu">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/food"
+                                        android:layout_gravity="center"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:text="KULINER"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/colorBlack"
+                                        android:background="@color/colorUngu"/>
+
+                                </LinearLayout>
+                            </android.widget.RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1">
+
+                            <android.widget.RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/shirt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="@color/colorAbu">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/shirt"
+                                        android:layout_gravity="center"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:text="PAKAIAN"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/colorBlack"
+                                        android:background="@color/colorUngu"/>
+
+                                </LinearLayout>
+                            </android.widget.RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1">
+
+                            <android.widget.RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/about"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="@color/colorAbu">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/about"
+                                        android:layout_gravity="center"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:text="TENTANG"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/colorBlack"
+                                        android:background="@color/colorUngu"/>
+
+                                </LinearLayout>
+                            </android.widget.RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:focusable="auto"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="Minang Kabau adalah salah satu dari sekian banyak budaya di INDONESIA"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+            </android.widget.RelativeLayout>
+
+
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pakaianActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:background="@color/colorAbu">
+
+            <android.widget.LinearLayout
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/judul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Pakaian adat MiangKabau"
+                        android:textColor="@color/colorRedDark"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/wanita"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textSize="36sp"
+                        android:textStyle="bold"
+                        android:text="1. Pakaian Wanita "
+                        android:textColor="@color/colorBlack" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:src="@drawable/bajuwanita" />
+
+                    <TextView
+                        android:id="@+id/waket"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="Ini adalah pakaian adat untuk wanita di minangkabau biasa disebut pakaian Bundo Kanduang."
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/laki"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="2.Pakaian Laki-laki"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:src="@drawable/bajupria" />
+                    <TextView
+                        android:id="@+id/laket"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="Ini adalah pakaian laki-laki di minangkabau biasa disebut pakaian Penghulu."
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/pengantin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textSize="36sp"
+                        android:textStyle="bold"
+                        android:text="3. Pakaian Pengantin "
+                        android:textColor="@color/colorBlack" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:src="@drawable/bajupengantin" />
+
+                    <TextView
+                        android:id="@+id/tinket"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="Ini adalah salah satu contoh pakaian adat untuk pengantin di minangkabau."
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/app"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="app by. Lyang Kilao"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="@color/colorUngu"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+
+            </android.widget.LinearLayout>
+
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

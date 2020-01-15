@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wisata">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@color/colorAbu">
+
+            <android.widget.RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/judul"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Destinasi Wisata"
+                            android:textSize="55sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorRedDark"
+                            android:gravity="center"/>
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/gadang"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:text="1. Jam Gadang"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/jam"/>
+                        <TextView
+                            android:id="@+id/gadangket"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:text="Jam Gadang adalah nama untuk menara jam yang terletak di pusat kota Bukittinggi, Sumatra Barat, Indonesia. Menara jam ini memiliki jam dengan ukuran besar di empat sisinya sehingga dinamakan Jam Gadang, sebutan bahasa Minangkabau yang berarti 'JAM BESAR'."/>
+                        <TextView
+                            android:id="@+id/pantai"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:text="2. Pantai Padang"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/pantaipadang"/>
+                        <TextView
+                            android:id="@+id/pantaiket"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:text="Pantai Padang atau populer dengan sebutan Taplau adalah sebuah pantai yang terletak di Kota Padang, Sumatra Barat. Pantai ini terletak pada kawasan padat perkotaan di Kecamatan Padang Barat, dan membentang dari daerah Purus hingga muara Batang Arau."/>
+
+                        <TextView
+                            android:id="@+id/mande"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:text="3. Pulau Mande"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/mande"/>
+                        <TextView
+                            android:id="@+id/mandeket"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:text="Puncak mandeh adalah tempat wisata yang menyerupai Raja Ampat di Kabupaten Pesisir Selatan dan berbatasan langsung dengan kota Padang. Puncak Mandeh terletak kurang lebih 56km dari Kota Padang dan dapat ditempuh menggunakan mobil selama 1 jam perjalanan. Kawasan wisata Mandeh sendiri mempunyai area seluas 18.000 Ha dan meliputi 7 desa dari 3 nagari yang penduduknya bekerja sebagai nelayan, beternak dan bertani."/>
+                        <TextView
+                            android:id="@+id/pariaman"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:text="4. Pariaman"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+                        <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/nyarai"/>
+                        <TextView
+                            android:id="@+id/pariamanket"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:text="Air Terjun Nyarai adalah salah satu air terjun yang terletak di Kabupaten Padang Pariaman, Provinsi Sumatra Barat. Air Terjun setinggi 8 meter ini terletak di kawasan Hutan Gamaran Salibutan Lubuk Alung Cagar Alam Nasional Bukit Barisan I."/>
+                        <TextView
+                            android:id="@+id/kelok"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:text="5. Kelok 9"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/kelok9"/>
+                        <TextView
+                            android:id="@+id/kelokket"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:text="Kelok 9 atau Kelok Sembilan adalah ruas jalan berkelok yang terletak sekitar 30 km sebelah timur dari Kota Payakumbuh, Sumatra Barat menuju Provinsi Riau. "/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/jam"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/view"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="30dp"
+                            android:textStyle="bold"
+                            android:textSize="36sp"
+                            android:textColor="@color/colorOrange"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="VIEW MAPS"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.widget.RelativeLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

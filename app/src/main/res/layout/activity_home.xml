@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@color/colorAbu">
+
+            <android.widget.FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/judul"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="50sp"
+                        android:text="MinangKabau"
+                        android:textColor="@color/colorRedDark"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="290dp"
+                        android:src="@drawable/pagaruyung"/>
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Suku Minangkabau – Kekayaan budaya nusantara memang sudah tidak bisa diragukan lagi. Beragam suku bangsa dengan keunikan dan ciri khas masing-masing memberikan warna tersendiri bagi keberagaman budaya nusantara. Sehingga menjelma menjadi identitas nusantara yang tak ternilai harganya dan menjadi kebanggaan bagi kita."
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Salah satu suku yang paling terkenal dan terbesar di nusantara adalah Suku Minangkabau yang berada di Sumatera Barat. Suku Minangkabau yang terkenal sebagai perantau ini tak hanya tinggal di sumatera saja namun tersebar di berbagai penjuru nusantara."
+                        android:textSize="22sp"
+                        android:layout_marginTop="15dp"/>
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bahkan, keunikan dari suku yang satu ini juga tersohor hingga ke berbagai belahan dunia. Setiap mendengar nama Suku Minangkabau pasti akan langsung teringat dengan dua kuliner legendarisnya, yaitu Nasi Padang dan Rendang yang rasanya nendang."
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:text="Namun lebih dari itu, Suku Minangkabau memiliki berbagai tradisi dan adat istiadat yang unik dan masih eksis hingga saat ini, Yaitu tradisi dan adat istiadat yang  lekat akan unsur religiusnya."
+                        />
+
+                    <TextView
+                        android:id="@+id/app"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="app by. Lyang Kilao"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="@color/colorUngu"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+
+            </android.widget.FrameLayout>
+
+        </ScrollView>
+
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
